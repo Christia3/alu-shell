@@ -1,13 +1,21 @@
 #!/usr/bin/env bash
-#using until loop to display best school 10 times
-
-i=0
-
-until [ $i -eq 10 ]
-
+#4-if_9_say_hi
+i=1
+while [ $i -le 10 ]
+      
 do
-    echo "Best School"
     
-    ((i++))
+    if [ $i -eq 9 ]
+    then
+	
+       echo "Best School \n Hi"
+
+     else
+	 echo "Best School"
+	 
+    fi
+    
+
+     ((i++))
 
 done
