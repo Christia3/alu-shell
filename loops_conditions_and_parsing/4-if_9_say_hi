@@ -1,5 +1,5 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
+#comment
 count=1
 while [ $count -le 10 ]; do
     if [ $count -eq 9 ]; then
